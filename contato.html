@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1> entre em contato conosco</h1>
+
+    <!--form é uma tag que faz o envio dos dados dos campos para o back-end.
+    O atributo 'action' especifica o url para onde os dados do formulário serão enviados.
+    o atributo method' define o método htt´utilizado no envio dos dados.
+      -'get': os dados são enviados como parametros na url (query string).
+    -->
+
+    <form action="salvar.contato.php" method="=get">
+    <label>Nome</label>
+    <input type="text" required minlength="3" maxlength="43"  name="Nome">
+<br>
+
+    <label>E-mail</label>
+    <input type="email"required name"E-mail">
+<br>
+    <label>contato</label>
+    <input type="tel" required name="celular">
+<br>
+    <label> motivo</label>
+    <select name="motivo"   required>
+        <option value="1"> bug</option>
+        <option value="2"> update</option>
+        <option value="3"> sugestão</option>
+    </select>
+<br>
+    <label>Descrição</label>
+    <textarea name="descricao"></textarea>
+<br>
+    <button type="submit">enviar</button>
+
+</form>
+
+</body>
+</html>
