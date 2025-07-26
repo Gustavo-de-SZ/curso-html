@@ -1,0 +1,29 @@
+.esquerda {
+    background-color: red;
+    width: 33%;
+    float: left;
+    height: 300px;
+    font-size: 10px;
+}
+
+.direita {
+    background-color: green;
+    width: 33%;
+    float: right;
+    font-size: 10px;
+    height: 300px;
+}
+
+div {
+    font-size: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+.outro-conteudo {
+    background-color: purple;
+    width: 33%;
+    height: 300px;
+    float: left;
+    clear: both;
+}
